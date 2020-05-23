@@ -17,7 +17,6 @@ thumbnail: '../thumbnails/js.png'
 في قمة Node.js لعام 2016، تحدث **أليكس غريغوريان**، وهو مدير هندسة البرمجيات في شركة **والمرت Walmart** الأكبر في العالم في مجال البيع بالتجزئة، أنه بعد ثلاثة أشهر سيتم معالجة 98% من ترافيك موقع **Walmart.com** بواسطة Node.js وستتم عملية العرض باستخدام مكتبة **React.js**.
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="fr"><p dir="ltr" lang="en">Feel so proud to <a href="https://twitter.com/hashtag/opensource?src=hash">#opensource</a> our <a href="https://twitter.com/hashtag/react?src=hash">#react</a> and <a href="https://twitter.com/hashtag/nodejs?src=hash">#nodejs</a> platform that powers <a href="https://t.co/KKXpgV6IAz">https://t.co/KKXpgV6IAz</a>. What a crazy ride. <a href="https://t.co/9LBatewC1n">https://t.co/9LBatewC1n</a></p>— Alex Grigoryan (@lexgrigoryan) <a href="https://twitter.com/lexgrigoryan/status/782982368374108160">3 octobre 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 وتابع أليكس أنه بعد أشهر قليلة سيصبح موقع [SamsClub.com](https://www.samsclub.com/)، المملوك لشركة والمرت أيضا، معتمدا بشكل كلي على الجافاسكربت سواء على مستوى الواجهة الأمامية أو الخلفية. وذهب **غريغوريان** أكثر من ذلك عندما أكد أنه حتى تطبيقات **أندرويد** و **iOS** الخاصة بموقع SamsClub.com سيتم تطويرها بواسطة **React Native**، وهي [كما شرحنا في موضوع سابق](https://www.tutomena.com/web-development/javascript/%d9%85%d9%82%d8%af%d9%85%d8%a9-%d8%b9%d9%86-react-native/) تقنية مبنية على جافاسكربت لتطوير تطبيقات موبايل أصلية.
 
@@ -29,7 +28,7 @@ thumbnail: '../thumbnails/js.png'
 
 في عام 2009، أبصر Node.js النور لأول مرة ومعه أصبحنا نستطيع رؤية جافاسكربت خارج سجنها المتمثل في المتصفحات. لقد بات بإمكان المطورين تشغيل جافاسكربت داخل الخوادم تماما كما كانوا يفعلون دائما مع لغات أخرى عريقة مثل PHP، بايثون، روبي وغيرها. هذه كانت قفزة نوعية في تاريخ الجافاسكربت بكل ما تحمل الكلمة من معنى.
 
-[caption id="attachment_2353" align="aligncenter" width="710"][![شركات عملاقة تستخدم Node.js](../images/who-is-using-nodejs.jpg)](../images/who-is-using-nodejs.jpg) شركات عملاقة تستخدم Node.js\
+[caption id="attachment_2353" align="aligncenter" width="710"]![شركات عملاقة تستخدم Node.js](../images/who-is-using-nodejs.jpg)](../images/who-is-using-nodejs.jpg) شركات عملاقة تستخدم Node.js\
 
 ## استعمالات متعددة للجافاسكربت
 
@@ -73,7 +72,7 @@ thumbnail: '../thumbnails/js.png'
 
 هذه الوحدات مثل قطع الغيار المكونة لمحرك السيارة، تتكامل فيما بينها ليعمل المحرك في الأخير بكفاءة عالية. وعند وجود عيب أو مشكل في إحدى القطع فيمكن إصلاحها أو تغييرها **دون المساس بباقي مكونات المحرك** وهذا هو جوهر العمل بطريقة MicroServices.
 
-[caption id="attachment_2352" align="aligncenter" width="710"][![البرمجة بطريقة Microservices](../images/microservices-architecture.jpg)](../images/microservices-architecture.jpg) البرمجة بطريقة Microservices\
+[caption id="attachment_2352" align="aligncenter" width="710"]![البرمجة بطريقة Microservices](../images/microservices-architecture.jpg)](../images/microservices-architecture.jpg) البرمجة بطريقة Microservices\
 
 بيئة **Node.js** متوافقة بشكل ممتاز مع هذه الطريقة وتضع بين أيدي المطورين مجموعة من الأدوات والآليات الكفيلة بجعل العمل أكثر سلاسة وانسيابية، وكل هذا يتم بالسرعة الكبيرة المعروفة عن Node.js مع الحفاظ على مستوى معقول من استهلاك موارد الخادم.
 
