@@ -241,3 +241,13 @@ import { path } from './deps.ts';
 وبالنسبة لنا كمطورين من الجيد أن نبقى على اطلاع بكل هذه الصيحات الجديدة ونظل على استعداد للتأقلم مع متطلبات السوق متى احتاج الأمر لذلك.
 
 > شاركني رأيك في هذه التقنية الجديدة، وهل في رأيك ستزاحم بشكل جدي Node.js في السنوات القليلة المقبلة ؟
+
+---
+
+#### مراجع مهمة
+
+- [Deno 1.0](https://deno.land/v1)
+- [Deno 1.0: What you need to know](https://blog.logrocket.com/deno-1-0-what-you-need-to-know/)
+- [Deno 1.0](https://deno.land/v1)
+
+<Author slug="aissa" />
