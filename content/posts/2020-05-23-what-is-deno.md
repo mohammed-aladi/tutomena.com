@@ -248,6 +248,5 @@ import { path } from './deps.ts';
 
 - [Deno 1.0](https://deno.land/v1)
 - [Deno 1.0: What you need to know](https://blog.logrocket.com/deno-1-0-what-you-need-to-know/)
-- [Deno 1.0](https://deno.land/v1)
 
 <Author slug="aissa" />
