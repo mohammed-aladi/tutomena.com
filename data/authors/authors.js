@@ -1,4 +1,5 @@
 import photo_aissa from './avatars/aissa.png';
+import photo_djafer from './avatars/djafer.jpg';
 
 const aissa = {
   name: 'عيسى محمد علي',
@@ -13,4 +14,18 @@ const aissa = {
     linkedin: 'https://linkedin.com/in/bouguern'
   }
 };
-export default { aissa };
+
+const djafer = {
+  name: 'عبدالهادي جعفر',
+  photo: photo_djafer,
+  bio:
+    'مصمم ومطور مشاريع رقمية (Digital Product Designer) ومهتم بتجربة المستخدم UX/UI',
+  website: '',
+  social: {
+    facebook: '',
+    twitter: 'https://twitter.com/elh4di',
+    github: 'https://github.com/asotjrs',
+    linkedin: 'https://linkedin.com/in/djafer'
+  }
+};
+export default { aissa, djafer };
