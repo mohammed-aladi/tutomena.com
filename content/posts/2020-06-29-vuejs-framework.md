@@ -501,4 +501,6 @@ vue ui
 
 Vue.js مكتبة رائعة وبكل تأكيد ستزداد شعبيتها في قادم الأيام، لا سيما وأن الجميع يترقبون وصول إصدار Vue 3 ومعه الكثير من المميزات الجديدة.
 
+<iframe style="max-width: 100%;margin: 0 auto; padding: 1rem 0 2rem; display: block; box-sizing: content-box;" width="560" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <Author slug="aissa" />
