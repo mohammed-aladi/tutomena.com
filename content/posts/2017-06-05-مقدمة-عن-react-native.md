@@ -13,7 +13,7 @@ tags:
 thumbnail: '../thumbnails/react.png'
 ---
 
-منذ عامين تقريبا، ظهر إطار العمل React Native لبرمجة تطبيقات الموبايل الأصيلة Native باستخدام لغة البرمجة جافاسكريبت. هذا الإطار مدعوم من فيسبوك ويعتمد في كتابة أكواد الجافاسكريبت على فلسفة React.js، إطار العمل الآخر من فيسبوك لتطوير تطبيقات الويب.
+منذ عامين تقريبا، ظهر إطار العمل React Native لبرمجة تطبيقات الموبايل الأصيلة Native باستخدام لغة البرمجة جافاسكريبت. هذا الإطار مدعوم من فيسبوك ويعتمد في كتابة أكواد الجافاسكريبت على فلسفة [React.js](/web-development/javascript/react-javascript-library/)، إطار العمل الآخر من فيسبوك لتطوير تطبيقات الويب.
 
 ## تطبيقات أصلية باستخدام تقنيات الويب
 
@@ -48,7 +48,7 @@ AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);
 
 ### تعلم React.js
 
-قبل الإنقضاض على React Native، حاول أولا إعطاء بعض الوقت لتعلم إطار العمل React.js وفهم طريقة عمله، وكلما زاد إتقانك له زادت فرص إندماجك السريع مع فلسفة RN.
+قبل الإنقضاض على React Native، حاول أولا إعطاء بعض الوقت لتعلم إطار العمل [React.js](/web-development/javascript/react-javascript-library/) وفهم طريقة عمله، وكلما زاد إتقانك له زادت فرص إندماجك السريع مع فلسفة RN.
 
 ### ECMAScript 6
 
@@ -79,11 +79,11 @@ const styles = StyleSheet.create({
   bigblue: {
     color: 'blue',
     fontWeight: 'bold',
-    fontSize: 30
+    fontSize: 30,
   },
   red: {
-    color: 'red'
-  }
+    color: 'red',
+  },
 });
 
 AppRegistry.registerComponent('LotsOfStyles', () => LotsOfStyles);

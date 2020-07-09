@@ -12,7 +12,7 @@ tags:
 thumbnail: '../thumbnails/react.png'
 ---
 
-سبق وشرحنا في مقال تعليمي سابق [إطار العمل React Native لبرمجة تطبيقات أصلية للأجهزة المحمولة](https://www.tutomena.com/web-development/javascript/%d9%85%d9%82%d8%af%d9%85%d8%a9-%d8%b9%d9%86-react-native/)، ورأينا بأن هذا الإطار مطور ومدعوم من شركة فيسبوك ويعتمد على فلسفة **React.js** في كتابة الشفرة البرمجية.
+سبق وشرحنا في مقال تعليمي سابق [إطار العمل React Native لبرمجة تطبيقات أصلية للأجهزة المحمولة](https://www.tutomena.com/web-development/javascript/%d9%85%d9%82%d8%af%d9%85%d8%a9-%d8%b9%d9%86-react-native/)، ورأينا بأن هذا الإطار مطور ومدعوم من شركة فيسبوك ويعتمد على فلسفة [React.js](/web-development/javascript/react-javascript-library/) في كتابة الشفرة البرمجية.
 
 استخدام **React Native** في تطوير تطبيقات الموبايل أصبح واسع الإنتشار وباتت بفضله هذه الصناعة تستقطب أعدادا كبيرة من مطوري جافاسكريبت لمزاحمة مطوري سويفت، جافا و كوتلن في هذا المجال :)
 
@@ -54,9 +54,9 @@ thumbnail: '../thumbnails/react.png'
 
 سبق وذكرنا في مقال سابق بأن [عدد كبير من الشركات والمواقع العالمية الكبرى تستخدم React.js ومشتقاتها في تطبيقاتها](https://www.tutomena.com/web-development/javascript/websites-made-with-reactjs/)، من بين هذه الشركات موقع **AirBnb.com** المعروف في مجال الإيجار والسكن المشترك.
 
-مطورو AirBnb قاموا بإنشاء مكتبة جافاسكريبت بغرض فحص واختبار مكونات React.js في مشاريعهم الداخلية، ولكنهم بعد ذلك قرروا طرحها للعموم وأسموها [Enzyme](https://github.com/airbnb/enzyme).
+مطورو AirBnb قاموا بإنشاء مكتبة جافاسكريبت بغرض فحص واختبار مكونات [React.js](/web-development/javascript/react-javascript-library/) في مشاريعهم الداخلية، ولكنهم بعد ذلك قرروا طرحها للعموم وأسموها [Enzyme](https://github.com/airbnb/enzyme).
 
-هذه المكتبة أصبحت منذ ذلك الحين أهم المكتبات التي يستخدمها مطورو React.js و React Native لإختبار شفراتهم البرمجية وهي متوافقة مع معظم مكتبات جافاسكريبت الخاصة بفحص الأكواد على غرار **Mocha** و **Jasmine**.
+هذه المكتبة أصبحت منذ ذلك الحين أهم المكتبات التي يستخدمها مطورو [React.js](/web-development/javascript/react-javascript-library/) و React Native لإختبار شفراتهم البرمجية وهي متوافقة مع معظم مكتبات جافاسكريبت الخاصة بفحص الأكواد على غرار **Mocha** و **Jasmine**.
 
 ## برنامج Reactotron
 

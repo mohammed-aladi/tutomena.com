@@ -12,13 +12,13 @@ tags:
 thumbnail: '../thumbnails/js.png'
 ---
 
-منذ ظهور أطر عمل الجافاسكريبت، أصبحت عبارتي Tw-way data binding و One-way data binding من أكثر العبارات والمصطلحات التقنية التي نسمعها ونقرؤها في الدورات والدروس المتعلقة بهذه الأطر (مثال: Angular و React).
+منذ ظهور أطر عمل الجافاسكريبت، أصبحت عبارتي Tw-way data binding و One-way data binding من أكثر العبارات والمصطلحات التقنية التي نسمعها ونقرؤها في الدورات والدروس المتعلقة بهذه الأطر (مثال: Angular و [React.js](/web-development/javascript/react-javascript-library/)).
 
 ## ما معنى Data Binding ؟
 
 الترجمة اللغوية الحرفية لمصطلح Data binding هو **ربط البيانات**. واصطلاحا هو الآلية التي يتم بها تنظيم ربط أو تدفق البيانات بين نموذج البيانات (_Model_) وواجهة المستخدم (_User Interface_).
 
-المقارنة بين آليتي تدفق البيانات أحادي الإتجاه (One-way) وثنائي الإتجاه (Two-way) طفت على السطح وبقوة في الأربع سنوات الأخيرة في ظل المقارنات بين إطار العمل Angular و مكتبة React.js. الأول يتبنى آلية Two-way data binding والثاني يعتمد آلية One-way data binding.
+المقارنة بين آليتي تدفق البيانات أحادي الإتجاه (One-way) وثنائي الإتجاه (Two-way) طفت على السطح وبقوة في الأربع سنوات الأخيرة في ظل المقارنات بين إطار العمل Angular و مكتبة [React.js](/web-development/javascript/react-javascript-library/). الأول يتبنى آلية Two-way data binding والثاني يعتمد آلية One-way data binding.
 
 ## تدفق البيانات ثنائي الإتجاه في إطار العمل Angular
 
@@ -61,13 +61,13 @@ class App extends React.Component {
     this.handleChange = this.handleChange.bind(this);
 
     this.state = {
-      name: 'Ahmed'
+      name: 'Ahmed',
     };
   }
 
   handleChange(event) {
     this.setState({
-      name: event.target.value
+      name: event.target.value,
     });
   }
 

@@ -25,7 +25,7 @@ thumbnail: '../thumbnails/vsc.png'
 
 <iframe width="710" height="439" src="https://www.youtube-nocookie.com/embed/YIvjKId9m2c?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
 
-إلى جانب **جافاسكريبت**، يدعم Prettier العديد من اللغات وأطر العمل مثل **CSS** ،**Typescript** ،**GraphQL** ،**Vue.js** ، **SCSS** إلخ...
+إلى جانب **جافاسكريبت**، يدعم Prettier العديد من اللغات وأطر العمل مثل **CSS** ،**Typescript** ،**GraphQL** ،[Vue.js](/vuejs-framework) ، **SCSS** إلخ...
 
 ## Import Cost
 

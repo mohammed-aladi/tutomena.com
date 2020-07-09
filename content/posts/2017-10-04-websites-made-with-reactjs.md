@@ -14,7 +14,7 @@ thumbnail: '../thumbnails/react.png'
 
 حققت [مكتبة React.js لتطوير واجهات المستخدم](https://www.tutomena.com/web-development/javascript/react-javascript-library/) مكاسب هائلة في العامين الأخيرين وباتت الآن واحدة من أقوى أطر العمل الخاصة بلغة الجافاسكربت وأكثرها استخداما على مستوى العالم.
 
-العديد من المواقع العالمية الكبيرة سارعت لاعتماد هذه المكتبة والإستفادة من نقاط قوتها المعروفة. وهذا بالذات موضوع هذا المقال، حيث سنعرض عليكم أبرز وأشهر هذه المواقع حتى تضح لكم أكثر قيمة وأهمية React.js في بناء تطبيقات ويب قوية وحديثة.
+العديد من المواقع العالمية الكبيرة سارعت لاعتماد هذه المكتبة والإستفادة من نقاط قوتها المعروفة. وهذا بالذات موضوع هذا المقال، حيث سنعرض عليكم أبرز وأشهر هذه المواقع حتى تضح لكم أكثر قيمة وأهمية [React.js](/web-development/javascript/react-javascript-library/) في بناء تطبيقات ويب قوية وحديثة.
 
 ## [Airbnb](https://www.airbnb.com/)
 
@@ -42,7 +42,7 @@ thumbnail: '../thumbnails/react.png'
 
 ## [BBC](http://www.bbc.com/)
 
-الموقع الرسمي **لهيئة الإذاعة البريطانية** يستخدم بدوره مكتبة React.js. هذا الموقع يستقبل ملايين الزوار لكونه واجهة لواحدة من أشهر الشركات الإعلاميات في العالم وأكثرها متابعة.
+الموقع الرسمي **لهيئة الإذاعة البريطانية** يستخدم بدوره مكتبة [React.js](/web-development/javascript/react-javascript-library/). هذا الموقع يستقبل ملايين الزوار لكونه واجهة لواحدة من أشهر الشركات الإعلاميات في العالم وأكثرها متابعة.
 
 <blockquote class="twitter-tweet" data-lang="fr"><p dir="ltr" lang="en">Speakers from the BBC talking about fast updating websites using <a href="https://twitter.com/SocketIO?ref_src=twsrc%5Etfw">@SocketIO</a> &amp; <a href="https://twitter.com/reactjs?ref_src=twsrc%5Etfw">@reactjs</a> at <a href="https://twitter.com/NodeDay?ref_src=twsrc%5Etfw">@nodeday</a>. <a href="https://twitter.com/hashtag/socketio?src=hash&amp;ref_src=twsrc%5Etfw">#socketio</a> <a href="https://twitter.com/hashtag/reactjs?src=hash&amp;ref_src=twsrc%5Etfw">#reactjs</a> <a href="http://t.co/soyClrxXav">pic.twitter.com/soyClrxXav</a></p>— Skills Matter (@skillsmatter) <a href="https://twitter.com/skillsmatter/status/614382545606733824?ref_src=twsrc%5Etfw">26 juin 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

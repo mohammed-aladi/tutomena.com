@@ -13,7 +13,7 @@ thumbnail: '../thumbnails/webpack.png'
 
 معظمنا ممن سبق لهم التعامل مع **مكتبة React.js** يعلمون بأن أفضل طريقة لبدء أي مشروع هي باستخدام الحزمة [create-react-app](https://github.com/facebook/create-react-app)، وهي الطريقة الرسمية الموصى بها.
 
-لا خلاف على أن هذه الحزمة قيمة جدا وتمكن المطورين من بدء مشاريع React.js بدون مجهود يذكر ومن دون أي إعدادات مسبقة وبالتالي التركيز على **React.js** فقط. ولكن، ماذا لو أردنا **فهم** كل ما يدور في كواليس تلك الحزمة ؟ ماذا لو أردنا إعداد مشروع React.js بأنفسنا ومعرفة كيفية اشتغال هذه المكتبة مع محزم الوحدات الأشهر **Webpack** ؟
+لا خلاف على أن هذه الحزمة قيمة جدا وتمكن المطورين من بدء مشاريع React.js بدون مجهود يذكر ومن دون أي إعدادات مسبقة وبالتالي التركيز على [React.js](/web-development/javascript/react-javascript-library/) فقط. ولكن، ماذا لو أردنا **فهم** كل ما يدور في كواليس تلك الحزمة ؟ ماذا لو أردنا إعداد مشروع React.js بأنفسنا ومعرفة كيفية اشتغال هذه المكتبة مع محزم الوحدات الأشهر **Webpack** ؟
 
 حزمة **create-react-app** صممت لجعلك تبدأ العمل مباشرة وتترك لها مهمة إعداد وبناء المشروع، ولا يهمها أن تفهم كيف يقوم Webpack بتحويل أكواد **JSX** إلى **جافاسكريبت** عادي أو طريقة استدعاء واستيراد ملفات **CSS** من داخل **مكونات React** عن طريق **import** إلخ...
 
@@ -35,7 +35,7 @@ mkdir -p src/components src/styles
 
 [![](../images/folders.png)](../images/folders.png)
 
-لتهيئة المشروع، سنقوم بتنفيذ الأمر التالي داخل المجلد react-from-scratch وذلك جريا على عادتنا في جميع المشاريع التي تستخدم مدير الحزم npm :
+لتهيئة المشروع، سنقوم بتنفيذ الأمر التالي داخل المجلد `react-from-scratch` وذلك جريا على عادتنا في جميع المشاريع التي تستخدم مدير الحزم [npm](/npm) :
 
 ```bash
 npm init -y
@@ -145,8 +145,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: 'bundle.js'
-  }
+    filename: 'bundle.js',
+  },
 };
 ```
 
@@ -167,7 +167,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
@@ -175,15 +175,15 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader'
-        }
+          loader: 'babel-loader',
+        },
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
-    ]
-  }
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 };
 ```
 
@@ -303,7 +303,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
@@ -311,20 +311,20 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader'
-        }
+          loader: 'babel-loader',
+        },
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
-    ]
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
-    })
-  ]
+      template: './src/index.html',
+    }),
+  ],
 };
 ```
 

@@ -21,7 +21,7 @@ thumbnail: '../thumbnails/js.png'
 
 تعرف كذلك بطريقة **CommonJS**، وفيها يتم استيراد الوحدات عن طريق الدالة `()require` وتصديرها بواسطة التعبير **module.exports**.
 
-هذا مثال بسيط على استيراد الوحدات في **React.js** على طريقة **ES5.**
+هذا مثال بسيط على استيراد الوحدات في [React.js](/web-development/javascript/react-javascript-library/) على طريقة **ES5.**
 
 ```jsx
 //App.js
@@ -59,7 +59,7 @@ class App extends React.Component {
 ```js
 const React = require('react');
 
-const Product = props => <h2>{props.title}</h2>;
+const Product = (props) => <h2>{props.title}</h2>;
 
 module.exports = Product;
 ```
@@ -79,7 +79,7 @@ module.exports = Product;
 ```js
 module.exports = {
   Product: Product,
-  Other: Other
+  Other: Other,
 };
 ```
 
@@ -98,7 +98,7 @@ var { Other } = require('./Product');
 //Product.js
 import React from 'react';
 
-const Product = props => <h2>{props.title}</h2>;
+const Product = (props) => <h2>{props.title}</h2>;
 
 export default Product;
 ```
@@ -125,9 +125,9 @@ import { Product } from './Product';
 //Product.js
 import React from 'react';
 
-export const Product = props => <h2>{props.title}</h2>;
+export const Product = (props) => <h2>{props.title}</h2>;
 
-export const Other = props => <h2>Just an other component!</h2>;
+export const Other = (props) => <h2>Just an other component!</h2>;
 ```
 
 ```js

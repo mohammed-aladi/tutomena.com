@@ -49,7 +49,7 @@ thumbnail: '../thumbnails/react.png'
 
 نلاحظ أنها صفحة تقريبا فارغة، لا تتضمن سوى `<div>` وأسفل منه ملف جافاسكريبت app.js يتم استدعاؤه.
 
-هكذا تبدو تطبيقات الويب أحادية الصفحة في كل أطر عمل جافاسكريبت الأخر (Vue.js ،Angular إلخ...).
+هكذا تبدو تطبيقات الويب أحادية الصفحة في كل أطر عمل جافاسكريبت الأخر ([Vue.js](/vuejs-framework) ،Angular إلخ...).
 
 عندما تصل هذه الصفحة إلى المتصفح، يقوم الأخير بواسطة جافاسكريبت الموجود في الملف app.js، بتحديد المكونات (Components) التي يجب توليدها وتركيبها في الصفحة بناء على URL (أو Route) المطلوب. كل هذا العمل يتم في المتصفح (Client) بعد أن تصل إليه الصفحة الفارغة قادمة من الخادم (Server).
 
@@ -68,7 +68,7 @@ thumbnail: '../thumbnails/react.png'
 تم بناء عدة أطر عمل جافاسكريبت **حول** أطر عمل الواجهات الأمامية المعروفة لكي تصبح قادرة على العمل في الخوادم وليس في المتصفحات فقط.
 
 - Next.js تم بناؤه حول [React.js](https://www.tutomena.com/web-development/javascript/react-javascript-library/).
-- Nuxt.js تم بناؤه حول [Vue.js](https://www.tutomena.com/web-development/javascript/3-reasons-to-choose-vuejs-framework/).
+- Nuxt.js تم بناؤه حول [Vue.js](/vuejs-framework).
 - Angular Universal حول [إطار العمل Angular](https://www.tutomena.com/web-development/javascript/components-angular-framework/).. هذا الإطار مدعوم رسميا من فريق Angular.
 
 تطبيقات الويب أحادية الصفحة التي تستفيد من SSR تعرف باسم **Isomorphic applications**، أي تطبيقات الويب **المتماثلة** لأنها تشتغل في بيئتي الويب والعميل معا. (تعرف كذلك باسم Universal Apps).

@@ -12,9 +12,9 @@ tags:
 thumbnail: '../thumbnails/react.png'
 ---
 
-في مشاريع React.js، يمكن **تنسيق المكونات** (_Components_) بعدة طرق مختلفة، واختيار طريقة دون غيرها يعتمد على رغبة المطور ومدى ارتياحه لها. وقد تكون الإستعانة بطريقة معينة أفضل في حالات محددة بحسب درجة تعقيد وحجم المكون.
+في مشاريع [React.js](/web-development/javascript/react-javascript-library/)، يمكن **تنسيق المكونات** (_Components_) بعدة طرق مختلفة، واختيار طريقة دون غيرها يعتمد على رغبة المطور ومدى ارتياحه لها. وقد تكون الإستعانة بطريقة معينة أفضل في حالات محددة بحسب درجة تعقيد وحجم المكون.
 
-في هذا الدرس، سنكتشف معا هذه الطرق الأربعة لتنسيق وإضافة أكواد CSS لمكونات تطبيقات React.js، وأنا متأكد بأن المطور سيعرف تلقائيا الطريقة التي عليه استخدامها بحسب حالة وحجم المكون أو المشروع الذي يشتغل عليه.
+في هذا الدرس، سنكتشف معا هذه الطرق الأربعة لتنسيق وإضافة أكواد CSS لمكونات تطبيقات [React.js](/web-development/javascript/react-javascript-library/)، وأنا متأكد بأن المطور سيعرف تلقائيا الطريقة التي عليه استخدامها بحسب حالة وحجم المكون أو المشروع الذي يشتغل عليه.
 
 ## 1. استدعاء ملف CSS
 
@@ -63,11 +63,11 @@ import React from 'react';
 
 const alertBoxStyle = {
   padding: '15px',
-  border: '1px solid #b71d1d'
+  border: '1px solid #b71d1d',
 };
 const alertMessageStyle = {
   backgoundColor: '#aae9fb',
-  color: '#b71d1d'
+  color: '#b71d1d',
 };
 
 const Alert = () => (
@@ -158,14 +158,14 @@ import styled from 'styled-components';
 
 const themes = {
   danger: {
-    bgColor: '#aae9fb'
-  }
+    bgColor: '#aae9fb',
+  },
 };
 
 const AlertBox = styled.div`
   padding: 15px;
   border: 1px solid #b71d1d;
-  background: ${props => props.type.bgColor};
+  background: ${(props) => props.type.bgColor};
 `;
 
 const AlertMessage = styled.span`

@@ -57,7 +57,7 @@ thumbnail: '../thumbnails/dom.png'
 
 بعد React هرعت مكتبات وأطر عمل أخرى لتحديث نفسها والإنتقال لإعتناق فكرة المكونات وعلى رأسها [Angular](/tags/angular/) و [Vue.js](/tags/vuejs/).
 
-القاسم المشترك بين كل هذه المكتبات (باستثناء Polymer) أنها لا تعتمد بأي شكل على واجهة Web Components API، بل وجد كل منها طريقته الخاصة لتنفيذ وتجسيد تلك الفكرة. رياكت عبر ميزة JSX، وAngular و Vue عبر نظام قوالب أو Templates.
+القاسم المشترك بين كل هذه المكتبات (باستثناء Polymer) أنها لا تعتمد بأي شكل على واجهة Web Components API، بل وجد كل منها طريقته الخاصة لتنفيذ وتجسيد تلك الفكرة. رياكت عبر ميزة JSX، وAngular و [Vue.js](/vuejs-framework) عبر نظام قوالب أو Templates.
 
 ## Web Components API
 
@@ -99,7 +99,7 @@ class CustomTitle extends HTMLElement {
 customElements.define('custom-title', CustomTitle);
 ```
 
-نلاحظ أننا قمنا بتعيين محتوى المكون `CustomTitle` داخل الوظيفة `connectedCallback()` والتي تعتبر من **وظائف دورة حياة** مكونات الويب الأصلية، على شاكلة Lifecycle Methods الموجودة في مكتبات وأطر عمل مثل React أو Vue.
+نلاحظ أننا قمنا بتعيين محتوى المكون `CustomTitle` داخل الوظيفة `connectedCallback()` والتي تعتبر من **وظائف دورة حياة** مكونات الويب الأصلية، على شاكلة Lifecycle Methods الموجودة في مكتبات وأطر عمل مثل React أو [Vue.js](/vuejs-framework).
 
 هذه الوظيفة يتم تنفيذها في الوقت الذي **يتم فيه تركيب المكون في شجرة DOM**، وهي مرادف لوظيفة `mounted` في [Vue](/web-development/javascript/3-reasons-to-choose-vuejs-framework/) أو `ComponentDidMount` في React.
 
@@ -388,7 +388,7 @@ customElements.define('the-counter', theCounter);
 import { Component, Prop } from '@stencil/core';
 
 @Component({
-  tag: 'my-first-component'
+  tag: 'my-first-component',
 })
 export class MyComponent {
   // Indicate that name should be a public property on the component

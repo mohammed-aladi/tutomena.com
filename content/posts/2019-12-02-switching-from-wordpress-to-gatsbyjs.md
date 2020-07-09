@@ -45,9 +45,9 @@ thumbnail: '../thumbnails/gatsby.png'
 
 - Jekyll (Ruby)
 - Next.js (React.js & Node.js)
-- Nuxt.js (Vue.js & Node.js)
-- VuePress (Vue.js & Node.js)
-- GridSome (Vue.js & Node.js)
+- Nuxt.js ([Vue.js](/vuejs-framework) & Node.js)
+- VuePress ([Vue.js](/vuejs-framework) & Node.js)
+- GridSome ([Vue.js](/vuejs-framework) & Node.js)
 - Hexo (Node.js)
 - Hugo (Go)
 

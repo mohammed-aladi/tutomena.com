@@ -13,11 +13,11 @@ thumbnail: '../thumbnails/react.png'
 
 **React.js** ليس إطار عمل بالمعنى الصحيح، بل مجرد مكتبة جافاسكربت طورتها شركة فيسبوك لبناء واجهات المستخدم User Interfaces، أي أن React لا يهتم بكل ما له علاقة بالخادم وقواعد البيانات، فهو لا يأتي مع أي واجهات للإتصال بالخوادم عن طريق الأجاكس كما هو الحال مثلا في إطار عمل أنغولار. هذا الكلام يعني أنك مطالب بالإستعانة بحلول طرف ثالث مثل جيكويري أو axios للقيام بعمليات أجاكس Ajax على سبيل المثال.
 
-يعتمد React.js على نظام **Virtual DOM** حيث يتم تحويل DOM لكائن جافاسكربت اعتيادي ومعه يتعامل React.js مباشرة، جميع التغييرات التي تتم على مستوى واجهة المستخدم يتم تنفيذها على مستوى Virtual DOM وبعد ذلك يقوم React.js بمقارنة Virtual DOM مع DOM الحقيقي لدمج التغييرات التي حصلت فقط وليس تحديث DOM بكامله كما تفعل jQuery و Angular مثلا.
+يعتمد React.js على نظام **Virtual DOM** حيث يتم تحويل DOM لكائن جافاسكربت اعتيادي ومعه يتعامل [React.js](/web-development/javascript/react-javascript-library/) مباشرة، جميع التغييرات التي تتم على مستوى واجهة المستخدم يتم تنفيذها على مستوى Virtual DOM وبعد ذلك يقوم React.js بمقارنة Virtual DOM مع DOM الحقيقي لدمج التغييرات التي حصلت فقط وليس تحديث DOM بكامله كما تفعل jQuery و Angular مثلا.
 
 [اقرأ أيضا: ما هو Virtual DOM ؟](https://www.tutomena.com/web-development/javascript/virtual-dom/)
 
-هذا النظام هو الذي أعطى السرعة الفائقة التي يعرف بها React.js، لأن التعامل مع كائنات الجافاسكربت أسرع من التعامل مع واجهات ال DOM APIs خاصة عندما تكون لدينا واجهة مستخدم معقدة وشجرة DOM فيها متشعبة ومتفرعة بشكل كبير.
+هذا النظام هو الذي أعطى السرعة الفائقة التي يعرف بها [React.js](/web-development/javascript/react-javascript-library/)، لأن التعامل مع كائنات الجافاسكربت أسرع من التعامل مع واجهات ال DOM APIs خاصة عندما تكون لدينا واجهة مستخدم معقدة وشجرة DOM فيها متشعبة ومتفرعة بشكل كبير.
 
 ```js
 import React from 'react';
@@ -26,7 +26,7 @@ import ReactDOM from 'react-dom';
 const Hello = React.createClass({
   render() {
     return React.createElement('div', null, 'hello world');
-  }
+  },
 });
 
 ReactDOM.render(React.createElement(Hello), document.getElementById('app'));
@@ -48,12 +48,12 @@ ReactDOM.render(React.createElement(Hello), document.getElementById('app'));
 const Hello = React.createClass({
   getInitialState() {
     return {
-      hello: 'world'
+      hello: 'world',
     };
   },
   handleInputChange(e) {
     this.setState({
-      hello: e.target.value
+      hello: e.target.value,
     });
   },
   render() {
@@ -64,13 +64,13 @@ const Hello = React.createClass({
         'input',
         {
           value: this.state.hello,
-          onChange: this.handleInputChange
+          onChange: this.handleInputChange,
         },
         null
       ),
       React.createElement('div', null, 'hello ' + this.state.hello)
     );
-  }
+  },
 });
 
 ReactDOM.render(React.createElement(Hello), document.getElementById('app'));
@@ -149,7 +149,7 @@ render() {
 Parent = React.createClass({
   getInitialState() {
     return {
-      tacos: ['Guacamole', 'Beef', 'Bean']
+      tacos: ['Guacamole', 'Beef', 'Bean'],
     };
   },
   handleReverse() {
@@ -162,7 +162,7 @@ Parent = React.createClass({
         <TacosList tacos={this.state.tacos} />
       </div>
     );
-  }
+  },
 });
 
 TacosList = React.createClass({
@@ -174,7 +174,7 @@ TacosList = React.createClass({
         })}
       </div>
     );
-  }
+  },
 });
 ```
 
@@ -201,7 +201,7 @@ class Parent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tacos: ['Guacamole', 'Beef', 'Bean']
+      tacos: ['Guacamole', 'Beef', 'Bean'],
     };
   }
 

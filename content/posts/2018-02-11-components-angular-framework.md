@@ -12,9 +12,9 @@ tags:
 thumbnail: '../thumbnails/angular.png'
 ---
 
-يعتبر **أنجولار** من بين أشهر إطارات عمل الجافاسكريبت في السوق حاليا. كانت بداياته في عام 2009 مع إصدار AngularJs 1.x، وبعد سنوات عديدة من النجاح والهيمنة، رأى مطورو شركة غوغل القائمين عليه بأنه قد حان الوقت للإنتقال لمستويات أخرى لضمان الحفاظ على حصة **Angular** في السوق ومنافسة عدد من اللاعبين الذي دخلوا بقوة في هذه الصناعة، نخص منهم بالذكر ReactJS التابع لشركة فيسبوك.
+يعتبر **أنجولار** من بين أشهر إطارات عمل الجافاسكريبت في السوق حاليا. كانت بداياته في عام 2009 مع إصدار AngularJs 1.x، وبعد سنوات عديدة من النجاح والهيمنة، رأى مطورو شركة غوغل القائمين عليه بأنه قد حان الوقت للإنتقال لمستويات أخرى لضمان الحفاظ على حصة **Angular** في السوق ومنافسة عدد من اللاعبين الذي دخلوا بقوة في هذه الصناعة، نخص منهم بالذكر [React.js](/web-development/javascript/react-javascript-library/) التابع لشركة فيسبوك.
 
-إحدى أهم النقاط التي جذبت اهتمام المطورين ل ReactJS هو اعتمادها منذ البداية على مفهوم **المكونات **أو **Components** في إنشاء تطبيقات ويب أحادية الصفحة، وقد بدا واضحا للجميع أن هذه هي الموضة القادمة التي ستسيطر على عالم إطارات عمل الجافاسكريبت.
+إحدى أهم النقاط التي جذبت اهتمام المطورين ل [React.js](/web-development/javascript/react-javascript-library/) هو اعتمادها منذ البداية على مفهوم **المكونات **أو **Components** في إنشاء تطبيقات ويب أحادية الصفحة، وقد بدا واضحا للجميع أن هذه هي الموضة القادمة التي ستسيطر على عالم إطارات عمل الجافاسكريبت.
 
 هذه النقطة لم تخفى بطبيعة الحال على مطوري أنغولار الذين أدخلوا هذا المفهوم - المكونات - على إصدارهم الجديد، والذي قرروا تسميته **Angular 2** بعدما قاموا بإعادة كتابته بشكل كامل قاطعين بذلك الطريق على أي توافقية ممكنة مع الإصدار القديم.
 
@@ -114,7 +114,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
   declarations: [AppComponent, CalculatorComponent],
   imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
 ```
@@ -127,7 +127,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-calculator',
   templateUrl: './calculator.component.html',
-  styleUrls: ['./calculator.component.css']
+  styleUrls: ['./calculator.component.css'],
 })
 export class CalculatorComponent implements OnInit {
   constructor() {}
@@ -183,7 +183,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
   declarations: [AppComponent, CalculatorComponent],
   imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
 ```
@@ -196,7 +196,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-calculator',
   templateUrl: './calculator.component.html',
-  styleUrls: ['./calculator.component.css']
+  styleUrls: ['./calculator.component.css'],
 })
 export class CalculatorComponent implements OnInit {
   public number1: number;
@@ -218,7 +218,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-calculator',
   templateUrl: './calculator.component.html',
-  styleUrls: ['./calculator.component.css']
+  styleUrls: ['./calculator.component.css'],
 })
 export class CalculatorComponent implements OnInit {
   public number1: number;

@@ -89,7 +89,7 @@ console.log('Database Driver : ', config.driver);
 
 قلنا بأن Browserify جاء بهدف واحد وواضح، هو نقل **ميزة التصدير والإستيراد لوحدات الجافاسكريبت** إلى عالم المتصفحات، بعدما كنا نراها فقط في Node.js، أي في الخوادم.
 
-أما Webpack، وهذه هي ميزته الأساسية، فيجعل في استطاعتنا استيراد جميع أنواع تبعيات المشروع (ليس الجافاسكريبت فقط) من صور، خطوط، ملفات CSS قد تكون على شكل SASS أو LESS... ففي التطبيقات الحديثة، مثل تطبيقات React.js، التي تعتمد على مفهوم المكونات أو Components قد نرى فيها أكوادا من هذا القبيل :
+أما Webpack، وهذه هي ميزته الأساسية، فيجعل في استطاعتنا استيراد جميع أنواع تبعيات المشروع (ليس الجافاسكريبت فقط) من صور، خطوط، ملفات CSS قد تكون على شكل SASS أو LESS... ففي التطبيقات الحديثة، مثل تطبيقات [React.js](/web-development/javascript/react-javascript-library/)، التي تعتمد على مفهوم المكونات أو Components قد نرى فيها أكوادا من هذا القبيل :
 
 ```js
 require('./stylesheets/main.scss');
@@ -104,16 +104,16 @@ module: {
       test: /\.scss\$/,
       use: [
         {
-          loader: 'style-loader' // creates style nodes from JS strings
+          loader: 'style-loader', // creates style nodes from JS strings
         },
         {
-          loader: 'css-loader' // translates CSS into CommonJS
+          loader: 'css-loader', // translates CSS into CommonJS
         },
         {
-          loader: 'sass-loader' // compiles Sass to CSS
-        }
-      ]
-    }
+          loader: 'sass-loader', // compiles Sass to CSS
+        },
+      ],
+    },
   ];
 }
 ```

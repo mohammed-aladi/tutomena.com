@@ -22,15 +22,15 @@ thumbnail: '../thumbnails/twitter.png'
 
 ## التقنيات المستخدمة لبناء مشروع Twitter Lite
 
-تويتر لايت هو تطبيق جافاسكريبت خالص حيث يعتمد في **واجهته الأمامية** على مجموعة من المشاريع مفتوحة المصدر، يتقدمها React.js مع Redux، إضافة ل [Normalizr](https://github.com/paularmstrong/normalizr)، [Globalize](https://github.com/globalizejs/globalize) مع الإعتماد على Babel، Webpack و Jest في مرحلة التطوير.
+تويتر لايت هو تطبيق جافاسكريبت خالص حيث يعتمد في **واجهته الأمامية** على مجموعة من المشاريع مفتوحة المصدر، يتقدمها [React.js](/web-development/javascript/react-javascript-library/) مع Redux، إضافة ل [Normalizr](https://github.com/paularmstrong/normalizr)، [Globalize](https://github.com/globalizejs/globalize) مع الإعتماد على Babel، Webpack و Jest في مرحلة التطوير.
 
-أما في **الواجهة الخلفية**، فالتطبيق يعتمد على بيئة التشغيل Node.js للإتصال بالواجهة البرمجية Twitter API وكذلك لإنجاز نظام _Authentication_، دون نسيان الدور الأساسي الذي يلعبه Node.js فيما يعرف ب [Server Side Rendering](https://www.tutomena.com/web-development/javascript/react-vue-angular-comparison/).
+أما في **الواجهة الخلفية**، فالتطبيق يعتمد على بيئة التشغيل Node.js للإتصال بالواجهة البرمجية Twitter API وكذلك لإنجاز نظام **Authentication**، دون نسيان الدور الأساسي الذي يلعبه Node.js فيما يعرف ب [Server Side Rendering](/web-development/javascript/what-is-server-side-rendering/).
 
-قام مطورو شركة تويتر بكتابة أكواد الجافاسكريبت بطريقة **ES2015** الحديثة، مع الإستعانة بأداتي Babel و Webpack لتحويل هذه الأكواد إلى جافاسكريبت اعتيادي مدعوم من جل المتصفحات وتجميعها بعد ذلك في عدد أقل من الملفات ( *Module Bundling *). وتمت الإستعانة بمكتبة Jest لإختبار وفحص المئات من مكونات React التي تشكل واجهة المستخدم UI الخاصة بالتطبيق.
+قام مطورو شركة تويتر بكتابة أكواد الجافاسكريبت بطريقة **ES2015** الحديثة، مع الإستعانة بأداتي Babel و Webpack لتحويل هذه الأكواد إلى جافاسكريبت اعتيادي مدعوم من جل المتصفحات وتجميعها بعد ذلك في عدد أقل من الملفات ( *Module Bundling *). وتمت الإستعانة بمكتبة Jest لإختبار وفحص المئات من مكونات [React.js](/web-development/javascript/react-javascript-library/) التي تشكل واجهة المستخدم UI الخاصة بالتطبيق.
 
 ## مميزات تويتر لايت ( كباقي تطبيقات الويب التقدمية )
 
-### 1\. تجربة استخدام أصيلة
+### 1. تجربة استخدام أصيلة
 
 لا تشعر بفرق كبير عند فتح تطبيق تويتر لايت، خاصة إذا فتحناه من أيقونة الشاشة الرئيسية، حيث يختفي شريط العنوان (Address bar) ونشعر فعلا بأننا نتصفح تطبيق تويتر الأصيل.
 

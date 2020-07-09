@@ -14,7 +14,7 @@ thumbnail: '../thumbnails/js.png'
 
 لا يخفى على أحد منكم أن لغة البرمجة جافاسكربت حققت قفزة هائلة في السنوات السبع الأخيرة، وتحديدا منذ ظهور بيئة **Node.js** التي بات من الممكن معها تشغيل أكواد الجافاسكريبت **خارج المتصفحات** كما جرت عليه العادة دائما.
 
-في قمة Node.js لعام 2016، تحدث **أليكس غريغوريان**، وهو مدير هندسة البرمجيات في شركة **والمرت Walmart** الأكبر في العالم في مجال البيع بالتجزئة، أنه بعد ثلاثة أشهر سيتم معالجة 98% من ترافيك موقع **Walmart.com** بواسطة Node.js وستتم عملية العرض باستخدام مكتبة **React.js**.
+في قمة Node.js لعام 2016، تحدث **أليكس غريغوريان**، وهو مدير هندسة البرمجيات في شركة **والمرت Walmart** الأكبر في العالم في مجال البيع بالتجزئة، أنه بعد ثلاثة أشهر سيتم معالجة 98% من ترافيك موقع **Walmart.com** بواسطة Node.js وستتم عملية العرض باستخدام مكتبة [React.js](/web-development/javascript/react-javascript-library/).
 
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="fr"><p dir="ltr" lang="en">Feel so proud to <a href="https://twitter.com/hashtag/opensource?src=hash">#opensource</a> our <a href="https://twitter.com/hashtag/react?src=hash">#react</a> and <a href="https://twitter.com/hashtag/nodejs?src=hash">#nodejs</a> platform that powers <a href="https://t.co/KKXpgV6IAz">https://t.co/KKXpgV6IAz</a>. What a crazy ride. <a href="https://t.co/9LBatewC1n">https://t.co/9LBatewC1n</a></p>— Alex Grigoryan (@lexgrigoryan) <a href="https://twitter.com/lexgrigoryan/status/782982368374108160">3 octobre 2016</a></blockquote>
 
