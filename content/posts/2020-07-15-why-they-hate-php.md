@@ -1,6 +1,6 @@
 ---
 title: 'لماذا يحقدون على PHP ؟!'
-date: 2020-07-10
+date: 2020-07-15
 slug: 'why-they-hate-php'
 template: 'post'
 categories:
