@@ -25,13 +25,13 @@ export default function Author({ slug }) {
             <summary>{bio}</summary>
             <div className="links">
               {website && (
-                <a href={website} target="_blank" title="الموقع الشخصي">
+                <a href={website} rel="noopener noreferrer" target="_blank" title="الموقع الشخصي">
                   <img src={earth} alt="الموقع الشخصي" width="24" />
                 </a>
               )}
 
               {facebook && (
-                <a href={facebook} target="_blank">
+                <a href={facebook} rel="noopener noreferrer" target="_blank">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -45,7 +45,7 @@ export default function Author({ slug }) {
               )}
 
               {twitter && (
-                <a href={twitter} target="_blank">
+                <a href={twitter} rel="noopener noreferrer" target="_blank">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -59,7 +59,7 @@ export default function Author({ slug }) {
               )}
 
               {github && (
-                <a href={github} target="_blank">
+                <a href={github} rel="noopener noreferrer" target="_blank">
                   <svg
                     role="img"
                     viewBox="0 0 24 24"
@@ -73,7 +73,7 @@ export default function Author({ slug }) {
               )}
 
               {linkedin && (
-                <a href={linkedin} target="_blank">
+                <a href={linkedin} rel="noopener noreferrer" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
