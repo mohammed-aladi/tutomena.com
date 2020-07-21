@@ -7,7 +7,6 @@ import { DiscussionEmbed } from 'disqus-react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import Layout from '../layout';
-import UserInfo from '../components/UserInfo';
 import PostTags from '../components/PostTags';
 import SEO from '../components/SEO';
 import config from '../../data/SiteConfig';
@@ -21,7 +20,7 @@ export default class PostTemplate extends Component {
     super(props);
 
     this.state = {
-      error: false
+      error: false,
     };
   }
 
@@ -31,12 +30,12 @@ export default class PostTemplate extends Component {
     const postNode = this.props.data.mdx;
     const post = postNode.frontmatter;
     const popular = postNode.frontmatter.categories.find(
-      category => category === 'Popular'
+      (category) => category === 'Popular'
     );
 
     const disqusConfig = {
       shortname: config.gatsby_disqus_name,
-      config: { identifier: slug }
+      config: { identifier: slug },
     };
 
     let thumbnail;
@@ -116,7 +115,6 @@ export default class PostTemplate extends Component {
         <div className="container">
           <NewsletterForm />
         </div>
-        {/* <UserInfo config={config} /> */}
       </Layout>
     );
   }
