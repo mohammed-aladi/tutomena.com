@@ -7,7 +7,7 @@
   margin: 5rem 0;
   background-color: #f7f7f7;
   border: 2px solid #e1e7f4;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
 
   .photo {
@@ -48,6 +48,17 @@
 
     .photo {
       margin-bottom: 0;
+    }
+  }
+}
+
+.dark {
+  .author-widget {
+    background-color: #1a1a1a;
+    border-color: #323232;
+
+    svg {
+      fill: #fff;
     }
   }
 }
