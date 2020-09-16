@@ -11,11 +11,11 @@ tags:
 thumbnail: '../thumbnails/vue.png'
 ---
 
-في المدة الأخيرة قمت بتجربة عدد من المزايا الجديد في Vue.js وعلى رأسها ميزة **Composition API** المرتقبة في الإصدار Vue 3 الذي ينتظره على أحر من الجمر جميع محبي إطار العمل Vue.
+في المدة الأخيرة قمت بتجربة عدد من المزايا الجديد في [Vue.js](/vuejs-framework) وعلى رأسها ميزة **Composition API** المرتقبة في الإصدار Vue 3 الذي ينتظره على أحر من الجمر جميع محبي إطار العمل Vue.
 
-فريق Vue.js الرسمي وفروا إضافة (_Plugin_) اسمها `@vue/composition-api` لتمكين المطورين من اكتشاف روعة Composition API والإستعانة بها في مشاريعهم التي يستخدمون فيها الإصدار Vue 2 دون أن يضطروا لإنتظار قدوم Vue 3 الذي ستكون هذه الميزة مدمجة فيه.
+فريق [Vue.js](/vuejs-framework) الرسمي وفروا إضافة (_Plugin_) اسمها `@vue/composition-api` لتمكين المطورين من اكتشاف روعة Composition API والإستعانة بها في مشاريعهم التي يستخدمون فيها الإصدار Vue 2 دون أن يضطروا لإنتظار قدوم Vue 3 الذي ستكون هذه الميزة مدمجة فيه.
 
-يمكن تشبيه Composition API بفكرة ال Hooks في عالم React.js بحيث تمكننا من استخلاص (Extract) عدد من المهام والعمليات المنطقية إلى دوال خاصة قابلة لإعادة الإستخدام بسهولة، مما يجعل الشفرة المصدرية للمكونات **واضحة**، **أكثر قابلية للقراءة** و**مرتبة بحسب الوظائف** (Organized by feature).
+يمكن تشبيه Composition API بفكرة ال [Hooks](/web-development/javascript/introduction-react-hooks/) في عالم [React.js](/tags/react/) بحيث تمكننا من استخلاص (Extract) عدد من المهام والعمليات المنطقية إلى دوال خاصة قابلة لإعادة الإستخدام بسهولة، مما يجعل الشفرة المصدرية للمكونات **واضحة**، **أكثر قابلية للقراءة** و**مرتبة بحسب الوظائف** (Organized by feature).
 
 <iframe style="max-width: 100%;margin: 0 auto; padding: 1rem 0 2rem; display: block; box-sizing: content-box;" width="560" height="315" src="https://www.youtube.com/embed/6HUjDKVn0e0?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -216,7 +216,7 @@ export default useDarkMode;
 </style>
 ```
 
-الوصول للواجهات البرمجية التي توفرها Composition API يتم داخل عضو جديد ضمن الخيارات التي يتوفر عليها مكون Vue. هذا الخيار الجديد هو الدالة `setup()` التي تعد بمثابة المدخل أو الممر الأساسي الذي **يجب أن يمر منه أي استخدام ل Composition API**.
+الوصول للواجهات البرمجية التي توفرها Composition API يتم داخل عضو جديد ضمن الخيارات التي يتوفر عليها مكون [Vue](/vuejs-framework/). هذا الخيار الجديد هو الدالة `setup()` التي تعد بمثابة المدخل أو الممر الأساسي الذي **يجب أن يمر منه أي استخدام ل Composition API**.
 
 جميع القيم والمتغيرات المرجعة من الوظيفة `setup()` تكون متاحة لقالب المكون (_Template_)، تماما مثل الحالات الموجودة داخل الكائن الذي يتم إرجاعه من الوظيفة `data()`.
 
